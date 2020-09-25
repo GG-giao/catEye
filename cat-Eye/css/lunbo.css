@@ -1,0 +1,42 @@
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.container img {
+    width: 800px;
+    height: 500px;
+    /* display: block; */
+    float: left;
+}
+
+.imgs{
+    width: 300%;
+    height: 500px;
+    /* 该元素的css属性变化时，不是瞬间变化，而是在0.5秒内完成变化 */
+    /* css3的属性：过渡 */
+    transition: .5s;
+}
+.dots{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.dots span{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: lightgray;
+    margin: 0 10px;
+    /* 圆角边框——CSS3 */
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* 被选中的span元素的样式 */
+.dots span.selected{
+    background: #e4a471;
+}

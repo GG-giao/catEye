@@ -1,0 +1,133 @@
+/* 清除浮动 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* 导航条 */
+.header {
+    width: 1500px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.header .container .logo img{
+    float: left;
+    width: 260px;
+    height: 70px;
+}
+.header .container .nav .color{
+    color: #fff;
+    background: #f40;
+}
+
+.header .container .nav ul a{
+    float: left;
+    width: 60px;
+    height: 80px;
+    text-align: center;
+}
+.header .container .nav ul a:hover{
+    background-color: #F40;
+    color: #fff;
+}
+
+.header .container .right .app img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    float: right;
+}
+.header .container .right .app span{
+    float: right;
+}
+.header .container .right .input{
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.header .container .right input{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border-color: #ccc;
+    float: right;
+    margin-top: 15px;
+    margin-left: 35px;
+} 
+.header .container .right .sousuo{
+    position: relative;
+}
+
+.header .container .right .sousuo img{
+    background: red;
+    border-radius: 50%;
+    width: 35px;
+    height: 36px;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.header .container .right .use img{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-right: -424px;
+    margin-top: 16px;
+}
+.header .container .right .use img a:hover{
+    width: 60px;
+    height: 120px;
+    border: 1px solid #CCC;
+}
+.header .container .right{
+    margin-right: 100px;
+}
+
+
+
+
+/* 页码 */
+.select{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.select a{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin:0 15px;
+}
+.select a:hover{
+    color: #fff;
+    border: 1px solid #f40;
+    background-color: #f40;
+}
+
+/* 尾巴 */
+
+.tail{
+    padding-top: 10px;
+    height: 250px;
+    background: #262426;
+    text-align: center;
+}
+.tail p{
+    font-size: 14px;
+    color: #ccc;
+    margin: 10px;
+}
+
+.tail p a{
+    color: #ef4238;
+    margin: 0  10px;
+
+}

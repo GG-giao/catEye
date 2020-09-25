@@ -1,0 +1,284 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 导航区域 */
+.header{
+    height: 100px;
+}
+.header .contai .img img{
+    width: 260px;
+    height: 70px;
+    float: left;
+}
+.header .contai .img ul li{
+    float: left;
+    padding: 0 10px;
+}
+
+.header .contai .img ul li:hover{
+    color: #fff;
+    background: #f40;
+}
+.header .contai .img ul .color{
+    color: #fff;
+    background: #f40;
+}
+.header .contai .img .left div{
+    float: left;
+}
+.header .contai .img .left .app img{
+    width: 35px;
+    height: 35px;
+    margin-top: 16px;
+}
+.header .contai .img .left .marg1{
+    margin-left: 115px;
+}
+.header .contai .img .left .marg{
+    margin-left: 30px;
+}
+.header .contai .img .left .input{
+    position: relative;
+}
+
+.header .contai .img .left .input input{
+    width: 220px;
+    height: 29px;
+    border-style: double;
+    border-radius: 20px;
+    color: #999;
+    
+}
+.header .contai .img .left .input input:focus{
+    outline: 0  solid  #000;
+}
+
+.header .contai .img .left .input img{
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 20px;
+    position: absolute;
+    top: 22px;
+    right: 0;
+    cursor: pointer;
+}
+.header .contai .img .left .yh img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+
+/* 中部区域 */
+.text{
+   
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.text div{
+    margin: 0 20%;
+
+}
+ .text div h2{
+    display: inline;
+    font-size: 26px;
+    font-weight: 400;
+    color: #2d98f3;
+    font-weight: bold;
+}
+.text div span{
+    float: right;
+    color: #2d98f3;
+    font-weight: bold;
+}
+.middle{
+    width: 1300px;
+    margin: 1em auto;
+    text-align: center;
+}
+
+
+.middle .movie-item{
+    float: left;
+    width: 190px;
+    height: 295px;
+    margin-right: 26px;
+    margin-bottom: 25px;
+}
+
+.middle .movie-item:nth-child(6n){
+    margin-right: 0px;
+}
+
+
+.middle .movie-item .figure{
+    color: #ffb400;
+}
+
+.middle .movie-item .frame a{
+    color: #999;
+    width: 80px;
+    height: 40px;
+}
+.middle .movie-item .frame span{
+    color: #999;
+}
+
+.middle .movie-item .txt{
+  margin: 2px;
+    
+}
+
+.middle .movie-item .figure{
+   margin: 2px; 
+}
+.middle .movie-item .date{
+    margin: 10px;
+    color: #999;
+      
+  }
+
+  .middle .movie-item .map img{
+        width: 160px;
+        height: 220px;
+  }
+
+
+/* 中部区域结束*/
+
+/* 热播电影区域 */
+.uder{
+    width: 1000px;
+    height: 30px;
+    margin: 2em auto;
+   
+}
+.uder .text-ch ul li{
+    float: left;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.uder .text-ch ul a:hover{
+    background-color: #ccc;
+    color: #f40;
+    border-radius: 20%;
+}
+
+.uder .text-ch ul .color{
+    font-size: 26px;
+    font-weight: 400;
+    color: rgb(239,66,56);
+    margin-top: 30px;
+}
+
+.uder .text-ch ul .right{
+    float: right;
+    color: rgb(239,66,56);
+}
+
+.moveis{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.moveis .moveis-img{
+    width: 350px;
+    height: 220px;
+    position: relative;
+    float: left;
+    margin: 20px;
+    margin-left: 30px;
+}
+.moveis .moveis-img .text{
+    top: 180px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 2px;
+    
+}
+
+.moveis .moveis-img .math{
+    color: #ffb400;
+    position: absolute;
+    font-size: 18px;
+    top: 200px;
+    right: 15px;
+    font-weight: bold;
+
+    
+}
+
+.moveis .moveis-imgq{
+    width: 160px;
+    height: 220px;
+    position: relative;
+    float: left;
+    margin: 20px;
+    
+}
+.moveis .moveis-imgq .text{
+    top: 180px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 2px;
+    
+}
+
+.moveis .moveis-imgq .math{
+    color: #ffb400;
+    position: absolute;
+    font-size: 18px;
+    top: 200px;
+    right: 15px;
+    font-weight: bold;
+}
+.moveis .call{
+    margin-left: 57px;
+}
+
+/* 热播电影区域结束*/
+
+.select{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.select a{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin:0 15px;
+}
+.select a:hover{
+    color: #fff;
+    border: 1px solid #f40;
+    background-color: #f40;
+}
+
+/* 尾巴 */
+
+.tail{
+    padding-top: 10px;
+    height: 250px;
+    background: #262426;
+    text-align: center;
+}
+.tail p{
+    font-size: 14px;
+    color: #ccc;
+    margin: 10px;
+}
+
+.tail p a{
+    color: #ef4238;
+    margin: 0  10px;
+
+}
+

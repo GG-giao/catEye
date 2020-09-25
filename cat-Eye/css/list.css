@@ -1,0 +1,111 @@
+
+
+/* 导栏信息  */
+.title{
+    background-color: #47464a;
+    height: 60px;
+    width: 100%;
+    min-width: 1200px;
+    text-align: center;
+    line-height: 60px;
+    color: #999;
+   
+}
+.title a{
+    margin: 0 52px;
+}
+
+.title .color{
+    color: #ef4238;
+}
+
+.title .common:hover{
+    color: #fff;
+}
+
+.article{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.article .text{
+    font-size: 12px;
+}
+.article .text p{
+    padding-top: 10px;
+    color: #999;
+}
+.article .text span{
+    color: #ffb400;
+} 
+
+/* 主体信息区域 */
+.article .article-text{
+    margin: 30px 0;
+    height: 220px;
+    position: relative;
+}
+
+.article .article-text .img-text{
+    margin: 0 20px;
+    margin-top: 80px;
+    width: 1490px;
+    margin-left: -620px;
+    
+}
+.article .article-text .img-text span{
+    float: right;
+}
+
+.article .article-text .img img{
+    width: 50px;
+    height: 50px;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+.article .article-text .img,
+.article .article-text .img-1,
+.article .article-text .imgtext{
+    float: left;
+}
+
+.article .article-text .img-text{
+   float: left; 
+}
+.article .article-text .img-text span{
+    float: right;
+    margin-top: -60px;
+}
+.article .article-text .img-text p{
+    margin: 10px 0;
+}
+.article .article-text .img-text .big{
+    font-size: 26px;
+}
+.article .article-text .img-text .color{
+    font-size:16px
+}
+.article .article-text .img-text .time{
+    color: #999;
+}
+.article .article-text .img-text .big-1{
+    font-size: 35px;
+    font-style: italic;
+    color: #ffb400;
+    font-weight: bold;
+}
+
+.img-fixed{
+    position: fixed;
+    top: 400px;
+    right: 20px;
+    border: 2px solid #999;
+    background: #999;
+}
+.img-fixed img{
+    width: 200px;
+    height:200px;
+    margin-top: 10px;
+}

@@ -1,0 +1,203 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 导航栏 */
+.header {
+    width: 1500px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+}
+.header .container .logo img{
+    float: left;
+    width: 260px;
+    height: 70px;
+}
+.header .container .nav .color a{
+    color: #fff;
+    background: #f40;
+}
+
+.header .container .nav ul a{
+    float: left;
+    width: 60px;
+    height: 80px;
+    text-align: center;
+}
+.header .container .nav ul a:hover{
+    color: #fff;
+    background: #f40;
+}
+
+.header .container .right .app img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    float: right;
+}
+.header .container .right .app span{
+    float: right;
+}
+.header .container .right .input{
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.header .container .right input{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border-color: #ccc;
+    float: right;
+    margin-top: 15px;
+    margin-left: 35px;
+} 
+.header .container .right .sousuo{
+    position: relative;
+}
+
+.header .container .right .sousuo img{
+    background: red;
+    border-radius: 50%;
+    width: 35px;
+    height: 36px;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.header .container .right .use img{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-right: -424px;
+    margin-top: 16px;
+}
+.header .container .right .use img a:hover{
+    width: 60px;
+    height: 120px;
+    border: 1px solid #CCC;
+}
+.header .container .right{
+    margin-right: 100px;
+}
+/* 导航栏结束 */
+
+
+/* 信息导航 */
+.message { 
+    width: 1200px;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+}
+.message .type{
+    margin: 15px 14px;
+    font-size: 15px;
+    line-height: 30px;
+    border-bottom: 1px dashed #ccc;
+}
+.message .type .none{
+    border-bottom: none;
+}
+
+.message .type .left{
+    float: left;
+    color: #999;
+}
+.message .type .right{
+    float: left;
+    width: 900px;
+}
+.message .type .right li {
+    float: left;
+    margin: 0 9px;
+    padding: 0 6px;
+}
+.message .type .right li:hover {
+    color: #fff;
+    background: #ff4400;
+    border-radius: 10px;
+}
+/* 信息导航结束 */
+
+
+/* 信息区域 */
+
+.title{
+    border-left: 5px solid #f40;
+    padding-left: 6px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 1200px;
+    margin: 0 auto;
+  
+}
+.title div h2{
+    float: left;
+}
+.title .img{
+    float: right;
+}
+.site{
+    width: 1200px;
+    margin: 30px auto;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.site .left .address{
+    font-size: 14px;
+    line-height: 14px;
+    color: #999;
+    margin: 7px 0;
+}
+
+.site .left .tags span{
+    display: inline-block;
+    border: .7px solid #509fc9;
+    border-radius: 3px;
+    padding: 0 2px;
+    margin-right: 8px;
+    color:  #509fc9;
+    font-size: 10px;
+}
+
+.site .right{
+    float: right;
+    margin-top: -45px;
+    margin-right: 110px;
+    font-size: 12px;
+    color: #999;
+}
+.site .right .bolck{
+    margin: 10px 0;
+}
+
+.site .btn{
+    float: right;
+    margin-top: -45px;
+}
+
+
+.site .btn a{
+    border-radius: 20px;
+    background: #F40;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 10px -2px #f03d37;
+
+}
+
+.site .right .bolck{
+    display: block;
+}
+
+/* 信息区域结束*/
